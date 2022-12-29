@@ -1,19 +1,14 @@
-package Entity;
+package entity;
 
-public class DataKaryawan {
-    protected String nama;
-    protected String alamat;
-    protected int umur;
+public class DataKaryawan extends Data{
 
-
-    public DataKaryawan(String nama, String alamat, int umur) {
+    private String nama,alamat;
+    private int umur;
+    public DataKaryawan(String email, String password,String nama,String alamat,int umur) {
+        super(email, password);
         this.nama = nama;
         this.alamat = alamat;
         this.umur = umur;
-    }
-
-    public DataKaryawan() {
-
     }
 
     public String getNama() {
@@ -39,5 +34,4 @@ public class DataKaryawan {
     public void setUmur(int umur) {
         this.umur = umur;
     }
-
 }
