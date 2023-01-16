@@ -11,7 +11,6 @@ public class ModelDataAdmin {
 
     public static void dataAdmin(){
         arrayAdmin.add(new DataAdmin("anang","123"));
-        arrayAdmin.add(new DataAdmin("achmad","123"));
     }
 
     public static DataAdmin cari(String email,String password){

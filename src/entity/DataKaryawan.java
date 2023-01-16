@@ -11,6 +11,13 @@ public class DataKaryawan extends Data{
         this.umur = umur;
     }
 
+    public DataKaryawan(String nama, String alamat, int umur) {
+        this.nama = nama;
+        this.alamat = alamat;
+        this.umur = umur;
+    }
+
+
     public String getNama() {
         return nama;
     }
