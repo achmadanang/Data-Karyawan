@@ -32,7 +32,6 @@ public class Login extends JFrame{
         textdatakaryawan.setBounds(200,20,200,25);
         textdatakaryawan.setFont(new Font("Serif",Font.BOLD,18));
 
-
         add(textdatakaryawan);
         add(logo);
         add(loginButton);
@@ -41,7 +40,6 @@ public class Login extends JFrame{
         add(passwordField1);
         add(j1);
         add(j2);
-
 
         loginButton.addActionListener(new ActionListener() {
             @Override
@@ -61,7 +59,6 @@ public class Login extends JFrame{
             }
         });
     }
-
 
     public Login(){
         setSize(600,600);
